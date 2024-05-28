@@ -4,3 +4,7 @@
 
 // The input string will only consist of lower case letters and/or spaces.
 
+function getCount(str) {
+  const vowels = Array.from(str).filter(letter => ('aeiou').includes(letter)).length
+  return vowels
+}
