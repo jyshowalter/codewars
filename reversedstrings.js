@@ -3,3 +3,6 @@
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
+function solution(str){
+  return str.split("").reduce((acc, char) => char + acc, "")
+}
